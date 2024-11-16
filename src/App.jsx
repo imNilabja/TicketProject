@@ -1,9 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const App = () => {
   return (
-    <div className='text-red-600'>App</div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
