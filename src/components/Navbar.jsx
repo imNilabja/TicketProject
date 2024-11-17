@@ -5,9 +5,9 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='w-screen h-11 bg-purple-700 flex'>
-      <div className='h-[100%] w-[15%] bg-yellow-300 flex justify-center items-center text-red-700 font-extrabold'>TicketSeller</div>
-      <div className='h-[100%] w-[85%] bg-green-400 pr-[70px] py-2 flex'>
+    <div className='w-screen h-14 bg-purple-700 flex'>
+      <div className='h-[100%] w-[15%] bg-yellow-300 flex justify-center items-center text-red-700 font-extrabold'><button>TicketSeller</button></div>
+      <div className='h-[100%] w-[85%] bg-green-400 pr-[70px] py-2 flex items-center'>
         <ul className='flex justify-end items-center text-white font-extrabold w-[100%] gap-7 mx-6 '>
           <button>Home</button>
           <button>Explore</button>

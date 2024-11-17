@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import cloudyImg from '../assets/cloudy.png'; // Image import
 import eveningImg from '../assets/evening.png';
+import cloudyImg from '../assets/cloudy.png'; // Image import
 import rainImg from '../assets/rainy.png';
 
 const CarouselFade = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
-    { id: 1, imgSrc: cloudyImg, alt: "Slide 1" },
-    { id: 2, imgSrc: eveningImg, alt: "Slide 2" },
+    { id: 1, imgSrc: eveningImg, alt: "Slide 1" },
+    { id: 2, imgSrc: cloudyImg, alt: "Slide 2" },
     { id: 3, imgSrc: rainImg, alt: "Slide 3" }
   ];
 
@@ -47,13 +47,13 @@ const CarouselFade = () => {
       {/* Navigation buttons */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 text-white text-xl bg-black bg-opacity-50 p-2 rounded-full h-16"
       >
         &#8249;
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 text-white text-xl bg-black bg-opacity-50 p-2 rounded-full h-16"
       >
         &#8250;
       </button>
