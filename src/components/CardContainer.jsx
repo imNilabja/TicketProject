@@ -7,7 +7,7 @@ function CardContainer() {
         <div className="flex w-[40%] h-[200px] mx-auto mt-10 justify-evenly items-center">
             <Card content="Buy"/>
             <Card content="Sell"/>
-            <Card content="Explore"/>
+            <Card content="Exploring"/>
         </div>
     )
 }
